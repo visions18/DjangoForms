@@ -38,4 +38,5 @@ This repo contains the code for manually rendering a form below and add CSS in i
 
 <img src="images/Capture.PNG" width="400" height="300" border="4">
 
+For more information checkout this <a href="">article</a>.
 
