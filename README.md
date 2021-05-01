@@ -34,7 +34,7 @@ Django renders it like this:
 
 *Not so beautiful right! So let's see how we can beautify it with CSS.*
 
-This repo contains the code for manually rendering a form below and add CSS in it:
+This repo contains the code for manually rendering the form below and adding CSS in it:
 
 <img src="images/Capture.PNG" width="400" height="300" border="4">
 
