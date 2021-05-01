@@ -1,4 +1,3 @@
-# DjangoForms
 ## How to manually render forms in Django
 
 Let us first know how Django actually renders forms.
