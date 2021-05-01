@@ -8,19 +8,39 @@
     <link rel="stylesheet" href="{% static 'css/style.css' %}">
 </head>
 <body>
-    
+    <!-- Manually rendered form -->
     <div class="form-style">
         <div class="form-style-heading">Register here</div>
-        <div>
-            <form method="post">
-               {% csrf_token %}
-               {{ form.as_p }}
-               <input type="submit" value="Submit">
-            </form> 
-           </div>
+        <form action="" method="post">
+            {% csrf_token %}
+            <label for="{{ form.name.id_for_label }}">
+                <span>Name 
+                    <span class="required">*</span>
+                </span>
+                {{ form.name }}
+            </label>
+            <label for="{{ form.email.id_for_label }}">
+                <span>Email 
+                    <span class="required">*</span>
+                </span>
+                {{ form.email }}
+            </label>
+            <label for="{{ form.contact.id_for_label }}">
+                <span>Contact no.</span>
+                {{ form.contact }}
+            </label>
+            <label for="{{ form.message.id_for_label }}">
+                <span>Message 
+                    <span class="required">*</span>
+                </span>
+                {{ form.message }}
+            </label>
+            <label>
+                <span> </span>
+                <input class="submit-btn" type="submit" value="Submit" />
+            </label>
+        </form>
     </div>
-
-
 
 </body>
 </html>
