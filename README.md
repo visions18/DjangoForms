@@ -1,4 +1,3 @@
-# DjangoForms
 ## How to manually render forms in Django
 
 Let us first know how Django actually renders forms.
@@ -20,6 +19,7 @@ Django handles three distinct parts of the work involved in forms:
 **{{ form.as_ul }}** will render fields wrapped in < li > tags
   
 Here where we are using {{ form.as_p }} to render a form:
+```html
 <div>
  <form method="post">
     {% csrf_token %}
@@ -27,13 +27,23 @@ Here where we are using {{ form.as_p }} to render a form:
     <input type="submit" value="Submit">
  </form> 
 </div>
-
+```
 Django renders it like this:
 
-![django](https://user-images.githubusercontent.com/82320729/116766408-00a34780-aa48-11eb-98d7-d8401bbda9e7.PNG") 
+<img src="images/form.PNG" width="300" height="300" border="4">
+
+Not so beautiful right! So let's see how we can beautify it with CSS.
 
 Demonstration:
 We will manually render the form below and add CSS in it:
 
-![django](https://user-images.githubusercontent.com/82320729/116766308-69d68b00-aa47-11eb-8d69-71df68dfd94e.PNG")
+<img src="images/Capture.PNG" width="400" height="300" border="4">
+
+Here are the steps:
+1. Created a Django project, myproject
+2. Created an app, main
+3. Connected the templates folder and added form.html
+4. Connected static folder and added style.css to it
+5. added a view for form.html
+6. connected the the template to view via url
 
