@@ -30,10 +30,10 @@ Here where we are using {{ form.as_p }} to render a form:
 
 Django renders it like this:
 
-![django](images/form.PNG) 
+<img src="images/form.PNG" width="400" height="400">
 
 Demonstration:
 We will manually render the form below and add CSS in it:
 
-![django](mages/Capture.PNG)
+<img src="images/Capture.PNG" width="400" height="400">
 
