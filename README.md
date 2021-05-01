@@ -18,7 +18,7 @@ Django handles three distinct parts of the work involved in forms:
   
 **{{ form.as_ul }}** will render fields wrapped in < li > tags
   
-Here where we are using {{ form.as_p }} to render a form:
+Here where we are using **{{ form.as_p }}** to render a form:
 ```html
 <div>
  <form method="post">
