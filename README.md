@@ -18,7 +18,7 @@ Django handles three distinct parts of the work involved in forms:
   
 **{{ form.as_ul }}** will render fields wrapped in < li > tags
   
-Here where we are using {{ form.as_p }} to render a form:
+Here where we are using **{{ form.as_p }}** to render a form:
 ```html
 <div>
  <form method="post">
@@ -32,18 +32,11 @@ Django renders it like this:
 
 <img src="images/form.PNG" width="300" height="300" border="4">
 
-Not so beautiful right! So let's see how we can beautify it with CSS.
+*Not so beautiful right! So let's see how we can beautify it with CSS.*
 
-Demonstration:
-We will manually render the form below and add CSS in it:
+This repo contains the code for manually rendering a form below and add CSS in it:
 
 <img src="images/Capture.PNG" width="400" height="300" border="4">
 
-Here are the steps:
-1. Created a Django project, myproject
-2. Created an app, main
-3. Connected the templates folder and added form.html
-4. Connected static folder and added style.css to it
-5. added a view for form.html
-6. connected the the template to view via url
+For more information checkout this <a href="">article</a>.
 
