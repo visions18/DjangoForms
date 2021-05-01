@@ -20,6 +20,7 @@ Django handles three distinct parts of the work involved in forms:
 **{{ form.as_ul }}** will render fields wrapped in < li > tags
   
 Here where we are using {{ form.as_p }} to render a form:
+`
 <div>
  <form method="post">
     {% csrf_token %}
@@ -27,7 +28,7 @@ Here where we are using {{ form.as_p }} to render a form:
     <input type="submit" value="Submit">
  </form> 
 </div>
-
+`
 Django renders it like this:
 
 <img src="images/form.PNG" width="300" height="300" border="4">
