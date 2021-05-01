@@ -2,14 +2,14 @@
 ## How to manually render forms in Django
 
 Let us first know how Django actually renders forms.
-***
+
 Django handles three distinct parts of the work involved in forms:
 * Preparing and restructuring data to make it ready for rendering
 * Creating HTML forms for the data
 * Receiving and processing submitted forms and data from the client
-***
 
-*Django can take care of it all for you.
+
+*Django can take care of it all for you*
 
 ### Form rendering options: 
 
