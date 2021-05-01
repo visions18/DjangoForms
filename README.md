@@ -29,11 +29,11 @@ Here where we are using {{ form.as_p }} to render a form:
 </div>
 
 Django renders it like this:
-
+|
 <img src="images/form.PNG" width="300" height="300" border="4">
-
+|
 Demonstration:
 We will manually render the form below and add CSS in it:
-
+|
 <img src="images/Capture.PNG" width="400" height="300" border="4">
-
+|
