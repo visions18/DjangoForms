@@ -11,11 +11,11 @@ Django handles three distinct parts of the work involved in forms:
 
 ### Form rendering options: 
 
-**{{ form.as_table }}** will render field as table cells wrapped in <tr> tags
+**{{ form.as_table }}** will render field as table cells wrapped in < tr > tags
   
-**{{ form.as_p }}** will render fields wrapped in <p> tags
+**{{ form.as_p }}** will render fields wrapped in < p > tags
   
-**{{ form.as_ul }}** will render fields wrapped in <li> tags
+**{{ form.as_ul }}** will render fields wrapped in < li > tags
   
 Here where we are using {{ form.as_p }} to render a form:
 <div>
